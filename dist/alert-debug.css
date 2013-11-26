@@ -2,143 +2,145 @@
 /*alert icons*/
 
 @font-face {
-  font-family: 'iconfont';
-  src: url('http://at.alicdn.com/t/font_1385445457_1809516.eot'); /* IE9*/
-  src: url('http://at.alicdn.com/t/font_1385445457_1809516.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://at.alicdn.com/t/font_1385445457_3880215.woff') format('woff'), /* chrome、firefox */
-  url('http://at.alicdn.com/t/font_1385445457_0878074.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('http://at.alicdn.com/t/font_1385445457_4335415.svg#svgFontName') format('svg'); /* iOS 4.1- */
+    font-family: 'iconfont';
+    src: url('http://at.alicdn.com/t/font_1385445457_1809516.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1385445457_1809516.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1385445457_3880215.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1385445457_0878074.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1385445457_4335415.svg#svgFontName') format('svg'); /* iOS 4.1- */
 }
-        
 
 .alert-icon {
-    font-family:"iconfont";
-    font-size:16px;
-    font-style:normal;
-    margin-right:5px;
+    font-family: "iconfont";
+    font-size: 16px;
+    font-style: normal;
+    margin-right: 5px;
 }
 
 .alert {
     margin-bottom: 20px;
-   /*  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); */
+    /*   */
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     color: #ce8f22;
     background-color: #fffcee;
-    text-shadow:none;
-    padding: 9px 15px 9px 15px;
+    text-shadow: none;
+    padding: 9px 10px 9px 15px;
     border-radius: 3px;
     border: 1px solid #F0DBB4;
     transition: all 0.2s linear 0s;
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
+
+.alert-shadow {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.alert-sm {
+    padding: 5px 10px 5px 15px;
+}
+
+.alert-sx {
+    padding: 2px 5px 2px 10px;
+}
+
 .alert, .alert h4 {
     color: #c09853;
 }
+
 .alert h4 {
     margin: 0;
 }
+
 .alert .close {
     position: relative;
     top: -2px;
     right: -21px;
     line-height: 20px;
 }
+
 .alert-success {
     color: #438a85;
     background-color: #f3faf8;
     border-color: #bfd1cf;
 }
+
 .alert-success h4 {
     color: #468847;
 }
+
 .alert-danger, .alert-error {
     color: #b94a48;
     background-color: #f2dede;
     border-color: #eed3d7;
 }
+
 .alert-danger h4, .alert-error h4 {
     color: #b94a48;
 }
+
 .alert-info {
     color: #246a8e;
     background-color: #ebf6fb;
     border-color: #bfd4de;
 }
+
 .alert-info h4 {
     color: #3a87ad;
 }
+
 .alert-block {
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.alert-block>p, .alert-block>ul {
+
+.alert-block > p, .alert-block > ul {
     margin-bottom: 0;
 }
-.alert-block p+p {
+
+.alert-block p + p {
     margin-top: 5px;
 }
 
-.alert-danger, .alert-error{
+.alert-danger, .alert-error {
     color: #e76e70;
     background-color: #fff6f4;
-    border-color: #f8cdcd;  
+    border-color: #f8cdcd;
 }
 
-.alert .link{
-    color:#be8c37;
-    font-weight:600;
-}
-.alert-success .link{
-    color:#3a7672;
-}
-.alert-info .link{
-    color:#2f6986;
-}
-.alert-danger .link, .alert-error .link{
-    color:#db7c7e;
+.alert .link {
+    color: #be8c37;
+    font-weight: 600;
 }
 
-.alert-danger .alert-heading , .alert-error .alert-heading {
-    color: #db7c7e !important;
-}
-.alert-success .alert-heading {
-    color: #438a85 !important;
-}
-.alert-info .alert-heading {
-    color: #246a8e !important;
-}
-.alert .alert-heading {
-    color: #be8625;
-    margin-bottom:5px;
-    font-weight:600;
-}
-.alert .btn-small{
-/*     position:relative;
-top: -3.5px; */
-}
-.alert .button-set .btn{
-    position:relative;
-    top: 8px;
+.alert-success .link {
+    color: #3a7672;
 }
 
-.alert-block{
-    padding: 15px 40px 15px 17px
+.alert-info .link {
+    color: #2f6986;
 }
 
-.alert-close {float:right;}
-.alert-close i{font-size:12px;color:#CBA25C;}
-
-.alert-info a.alert-close i {
-   color: #477388;
+.alert-danger .link, .alert-error .link {
+    color: #db7c7e;
 }
 
-.alert-error a.alert-close i {
-    color:#E29496;
+.alert-close {
+    float: right;
 }
 
-.alert-success a.alert-close i{
-    color:#5F908D;
+.alert-close i {
+    font-size: 12px;
+    color: #CBA25C;
+}
+
+.alert-info .alert-close i {
+    color: #477388;
+}
+
+.alert-error .alert-close i {
+    color: #E29496;
+}
+
+.alert-success .alert-close i {
+    color: #5F908D;
 }
